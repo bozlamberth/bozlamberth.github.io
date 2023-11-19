@@ -31,6 +31,66 @@ Toward this target, I think theory and applications of <b>energy storage</b> wil
 <li><p>Application: Power/energy system, flexibility &amp; resilience, energy storage, power market, energy bank</p>
 </li>
 </ul>
+<h2>Frequency-Secured Unit Commitment</h2>
+<table class="imgtable"><tr><td>
+<img src="./images/Frequency.jpg" alt="profile pic" width="500px" />&nbsp;</td>
+<td align="left"><p>As we replace conventional synchronous generators with renewable energy, the frequency security of power systems is at higher risk.
+This calls for a more careful consideration of unit commitment (UC) and primary frequency response (PFR) reserves.
+This study studies frequency-secured UC under significant wind power uncertainty.
+We coordinate the thermal units and wind farms to provide frequency support, wherein we optimize the variable inverter droop factors of the wind farms for higher economy.
+In addition, we adopt distributionally robust chance constraints (DRCCs) to handle the wind power uncertainty.
+To depict the frequency dynamics, we incorporate a differential-algebraic equation (DAE) with the dead band into the UC model.
+Notably, we apply Bernstein polynomials to derive tight inner approximation of the DAE and obtain mixed-integer linear constraints, which can be computed in off-the-shelf solvers.
+Case studies demonstrate the tightness and effectiveness of the proposed method in guaranteeing frequency security.</p>
+<p>Research outputs:</p>
+<ol>
+<li><p><b>Bo Zhou</b>, Ruiwei Jiang, Siqian Shen,
+&ldquo;<a href="https://arxiv.org/abs/2212.12088">Frequency Stability-Constrained Unit Commitment: Tight Approximation using Bernstein Polynomials</a>,&rdquo;
+<i>IEEE Transactions on Power Systems</i>, early access.</p>
+</li>
+<li><p><b>Bo Zhou</b>, Ruiwei Jiang, Siqian Shen,
+&ldquo;<a href="https://doi.org/10.1109/PESGM52003.2023.10253174">Differential-Algebraic Equation-Constrained Frequency-Secured Stochastic Unit Commitment</a>,&rdquo;
+in Proceedings of 2023 IEEE Power &amp; Energy Society General Meeting (<i>PESGM 2023</i>), Orlando, United States, July 2023.</p>
+</li>
+</ol>
+</td></tr></table>
+<h2>Configuration Optimization and Operation Strategy of Energy Storage Stations for the Power System</h2>
+<table class="imgtable"><tr><td>
+<img src="./images/trading.png" alt="profile pic" width="500px" />&nbsp;</td>
+<td align="left"><p>Renewables, widely regarded as the predominant energy in the future, have primary responsibility for future power supply adequacy and thus are becoming the main flexibility demander considering their self-induced uncertainties.
+This paper proposes a novel storage right-based hybrid discrete-time and continuous-time (HT) flexibility trading between energy storage station (ESS) and renewable power plants (RPP), where ESS sells flexibility for profits and RPPs buy flexibility to hedge power shortage risks.
+The flexibility package (FP), composed of energy<i>power</i>ramping capacity right and stored energy sell/recycle, is proposed as the trading product to reach the higher profit for ESS and to provide the more customized selection for RPPs.
+The HT bilevel optimization is proposed for the flexibility trading, where the upper-level discrete-time (DT) optimization decides the arbitrage schedule and FP price of ESS and the lower-level continuous-time (CT) optimization decides the bidding strategy and FP order of each RPP.
+The enhanced solution space transformation and the KKT condition method are utilized to reduce the HT bilevel optimization into common DT optimization which is then linearized into mixed-integer linear programming for tractable calculation.
+Case studies validate the higher profits of ESS and the lower power shortage risks of RPPs under the proposed method.</p>
+<p>Research outputs:</p>
+<ol>
+<li><p><b>Bo Zhou</b>, Xiaomeng Ai, Jiakun Fang, Shichang Cui, Wei Yao, Zhe Chen, Jinyu Wen,
+&ldquo;<a href="https://doi.org/10.1109/TSTE.2022.3215839">Storage right-based hybrid discrete-time and continuous-time flexibility trading between energy storage station and renewable power plants</a>,&rdquo;
+<i>IEEE Transactions on Sustainable Energy</i>, 14(01), 465-481, 2023.</p>
+</li>
+</ol>
+</td></tr></table>
+<table class="imgtable"><tr><td>
+<img src="./images/StorageGrid.png" alt="profile pic" width="500px" />&nbsp;</td>
+<td align="left"><p>Driven by the carbon peak and neutrality goals, the rapid development of renewables will significantly change the structure and distribution of energy resources of the power system in China, which also brings great opportunities and challenges for the development of energy storage in the power system.
+First, the locations of the loads center and the changes of the structure and distribution of energy resources are studied, based on which the new pattern of future power system is predicted, i.e., from-around-to-inside power transmission.
+Then, the critical role of energy storage in supporting the secure, efficient, and low-carbon operation of the future power system is analyzed.
+On this basis, the development superiority of pumped hydro storage in the new pattern is highlighted considering the topographical characteristics of China.
+Accordingly, the pumped hydro storage-predominated energy storage grid is proposed, whose necessity is further analyzed from the perspective of system-wide active power balance.
+Finally, key technologies for the energy storage grid are investigated, including planning, operating, and market, and some thoughts on the development of the energy storage grid are further provided.</p>
+<p>Research outputs:</p>
+<ol>
+<li><p>Jinyu Wen, <b>Bo Zhou</b>, Lishen Wei,
+&ldquo;<a href="https://doi.org/10.19783/j.cnki.pspc.220265">Preliminary study on an energy storage grid for future power system in China</a>,&rdquo;
+<i>Power System Protection and Control (in Chinese)</i>, 50(07), 1-10, 2022. (F5000 top article)</p>
+</li>
+<li><p><b>Bo Zhou</b>, Minggang Song, Jiawei Huang, Xiaomeng Ai, Wei Yao, Jinyu Wen,
+&ldquo;<a href="https://doi.org/10.7500/AEPS20180816011">Configuration optimization method of multifunctional hybrid energy storage for regional power line fault</a>,&rdquo;
+<i>Automation of Electric Power System (in Chinese)</i>, 43(08), 25-34, 2019.</p>
+</li>
+</ol>
+</td></tr></table>
 <h2>Data-Adaptive Robust Optimization for Unit Commitment under Wind Uncertainty</h2>
 <table class="imgtable"><tr><td>
 <img src="./images/cut.png" alt="profile pic" width="500px" />&nbsp;</td>
@@ -76,43 +136,6 @@ in Proceedings of 2020 IEEE Power &amp; Energy Society General Meeting (<i>PESGM
 </li>
 </ol>
 </td></tr></table>
-<h2>Configuration Optimization and Operation Strategy of Energy Storage Stations for the Power System</h2>
-<table class="imgtable"><tr><td>
-<img src="./images/trading.png" alt="profile pic" width="500px" />&nbsp;</td>
-<td align="left"><p>Renewables, widely regarded as the predominant energy in the future, have primary responsibility for future power supply adequacy and thus are becoming the main flexibility demander considering their self-induced uncertainties.
-This paper proposes a novel storage right-based hybrid discrete-time and continuous-time (HT) flexibility trading between energy storage station (ESS) and renewable power plants (RPP), where ESS sells flexibility for profits and RPPs buy flexibility to hedge power shortage risks.
-The flexibility package (FP), composed of energy<i>power</i>ramping capacity right and stored energy sell/recycle, is proposed as the trading product to reach the higher profit for ESS and to provide the more customized selection for RPPs.
-The HT bilevel optimization is proposed for the flexibility trading, where the upper-level discrete-time (DT) optimization decides the arbitrage schedule and FP price of ESS and the lower-level continuous-time (CT) optimization decides the bidding strategy and FP order of each RPP.
-The enhanced solution space transformation and the KKT condition method are utilized to reduce the HT bilevel optimization into common DT optimization which is then linearized into mixed-integer linear programming for tractable calculation.
-Case studies validate the higher profits of ESS and the lower power shortage risks of RPPs under the proposed method.</p>
-<p>Research outputs:</p>
-<ol>
-<li><p><b>Bo Zhou</b>, Xiaomeng Ai, Jiakun Fang, Shichang Cui, Wei Yao, Zhe Chen, Jinyu Wen,
-&ldquo;<a href="https://doi.org/10.1109/TSTE.2022.3215839">Storage right-based hybrid discrete-time and continuous-time flexibility trading between energy storage station and renewable power plants</a>,&rdquo;
-<i>IEEE Transactions on Sustainable Energy</i>, early access.</p>
-</li>
-</ol>
-</td></tr></table>
-<table class="imgtable"><tr><td>
-<img src="./images/StorageGrid.png" alt="profile pic" width="500px" />&nbsp;</td>
-<td align="left"><p>Driven by the carbon peak and neutrality goals, the rapid development of renewables will significantly change the structure and distribution of energy resources of the power system in China, which also brings great opportunities and challenges for the development of energy storage in the power system.
-First, the locations of the loads center and the changes of the structure and distribution of energy resources are studied, based on which the new pattern of future power system is predicted, i.e., from-around-to-inside power transmission.
-Then, the critical role of energy storage in supporting the secure, efficient, and low-carbon operation of the future power system is analyzed.
-On this basis, the development superiority of pumped hydro storage in the new pattern is highlighted considering the topographical characteristics of China.
-Accordingly, the pumped hydro storage-predominated energy storage grid is proposed, whose necessity is further analyzed from the perspective of system-wide active power balance.
-Finally, key technologies for the energy storage grid are investigated, including planning, operating, and market, and some thoughts on the development of the energy storage grid are further provided.</p>
-<p>Research outputs:</p>
-<ol>
-<li><p>Jinyu Wen, <b>Bo Zhou</b>, Lishen Wei,
-&ldquo;<a href="https://doi.org/10.19783/j.cnki.pspc.220265">Preliminary study on an energy storage grid for future power system in China</a>,&rdquo;
-<i>Power System Protection and Control (in Chinese)</i>, 50(07), 1-10, 2022. (F5000 top article)</p>
-</li>
-<li><p><b>Bo Zhou</b>, Minggang Song, Jiawei Huang, Xiaomeng Ai, Wei Yao, Jinyu Wen,
-&ldquo;<a href="https://doi.org/10.7500/AEPS20180816011">Configuration optimization method of multifunctional hybrid energy storage for regional power line fault</a>,&rdquo;
-<i>Automation of Electric Power System (in Chinese)</i>, 43(08), 25-34, 2019.</p>
-</li>
-</ol>
-</td></tr></table>
 <h2>Coordination of Integrated Electricity and Natural Gas System</h2>
 <table class="imgtable"><tr><td>
 <img src="./images/IEGS.png" alt="profile pic" width="500px" />&nbsp;</td>
@@ -135,29 +158,6 @@ Case studies on a single-pipe example and two practical test systems are conduct
 <li><p><b>Bo Zhou</b>, Jiakun Fang, Xiaomeng Ai, Wei Yao, Zhe Chen, Jinyu Wen,
 &ldquo;<a href="https://doi.org/10.1049/iet-gtd.2019.1956">Pyramidal approximation for power flow and optimal power flow</a>,&rdquo;
 <i>IET Generation, Transmission &amp; Distribution</i>, 14(18), 3774-3782, 2020.</p>
-</li>
-</ol>
-</td></tr></table>
-<h2>Frequency-Secured Unit Commitment</h2>
-<table class="imgtable"><tr><td>
-<img src="./images/Frequency.jpg" alt="profile pic" width="500px" />&nbsp;</td>
-<td align="left"><p>As we replace conventional synchronous generators with renewable energy, the frequency security of power systems is at higher risk.
-This calls for a more careful consideration of unit commitment (UC) and primary frequency response (PFR) reserves.
-This study studies frequency-secured UC under significant wind power uncertainty.
-We coordinate the thermal units and wind farms to provide frequency support, wherein we optimize the variable inverter droop factors of the wind farms for higher economy.
-In addition, we adopt distributionally robust chance constraints (DRCCs) to handle the wind power uncertainty.
-To depict the frequency dynamics, we incorporate a differential-algebraic equation (DAE) with the dead band into the UC model.
-Notably, we apply Bernstein polynomials to derive tight inner approximation of the DAE and obtain mixed-integer linear constraints, which can be computed in off-the-shelf solvers.
-Case studies demonstrate the tightness and effectiveness of the proposed method in guaranteeing frequency security.</p>
-<p>Research outputs:</p>
-<ol>
-<li><p><b>Bo Zhou</b>, Ruiwei Jiang, Siqian Shen,
-&ldquo;<a href="https://arxiv.org/abs/2212.12088">Frequency-Secured Unit Commitment: Tight Approximation using Bernstein Polynomials</a>,&rdquo;
-<i>IEEE Transactions on Power Systems</i>, submitted.</p>
-</li>
-<li><p><b>Bo Zhou</b>, Ruiwei Jiang, Siqian Shen,
-&ldquo;<a href="https://doi.org/10.1109/PESGM52003.2023.10253174">Differential-Algebraic Equation-Constrained Frequency-Secured Stochastic Unit Commitment</a>,&rdquo;
-in Proceedings of 2023 IEEE Power &amp; Energy Society General Meeting (<i>PESGM 2023</i>), Orlando, United States, July 2023.</p>
 </li>
 </ol>
 </td></tr></table>
