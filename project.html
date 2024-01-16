@@ -31,6 +31,28 @@ Toward this target, I think theory and applications of <b>energy storage</b> wil
 <li><p>Application: Power/energy system, flexibility &amp; resilience, energy storage, power market, energy bank</p>
 </li>
 </ul>
+<h2>Theories and Computational Algorithms for Optimizing Bilevel Mixed-Integer Nonlinear Programs</h2>
+<table class="imgtable"><tr><td>
+<img src="./images/neuralBilevel.png" alt="profile pic" width="500px" />&nbsp;</td>
+<td align="left"><p>Bilevel programs (BPs) find a wide range of applications in fields such as energy, transportation, and machine learning.
+As compared to BPs with continuous (linear/convex) optimization problems in both levels, the BPs with discrete decision variables have received much less attention,
+largely due to the ensuing computational intractability and the incapability of gradient-based algorithms for handling discrete optimization formulations.
+In this paper, we develop deep learning techniques to address this challenge.
+Specifically, we consider a BP with binary tender, wherein the upper and lower levels are linked via binary variables.
+We train a neural network to approximate the optimal value of the lower-level problem, as a function of the binary tender.
+Then, we obtain a single-level reformulation of the BP through a mixed-integer representation of the value function.
+Furthermore, we conduct a comparative analysis between two types of neural networks:
+general neural networks and the novel input supermodular neural networks, studying their representational capacities.
+To solve high-dimensional BPs, we introduce an enhanced sampling method to generate higher-quality samples and implement an iterative process to refine solutions.
+We demonstrate the performance of these approaches through extensive numerical experiments, whose lower-level problems are linear and mixed-integer programs, respectively.</p>
+<p>Research outputs:</p>
+<ul>
+<li><p><b>Bo Zhou</b>, Ruiwei Jiang, Siqian Shen,
+&ldquo;<a href="https://openreview.net/group?id=ICLR.cc/2024">Learning to Solve Bilevel Programs with Binary Tender</a>,&rdquo;
+Twelfth International Conference on Learning Representation (<i>ICLR 2024</i>), accepted. (<b>TOP conference in machine learning</b>)</p>
+</li>
+</ul>
+</td></tr></table>
 <h2>Frequency-Secured Unit Commitment</h2>
 <table class="imgtable"><tr><td>
 <img src="./images/Frequency.jpg" alt="profile pic" width="500px" />&nbsp;</td>
@@ -147,6 +169,10 @@ For tractable calculation, the Bernstein polynomial spline-based solution space 
 Case studies on a single-pipe example and two practical test systems are conducted and the simulation results validate the effectiveness of the proposed FSO method.</p>
 <p>Research outputs:</p>
 <ol>
+<li><p>Xiaomeng Ai, Huang Zhou, Jun Zhou, <b>Bo Zhou</b>, Shichang Cui, Jiakun Fang, Jinyu Wen,
+&ldquo;Multi-Week Continuous-Time Scheduling of Integrated Electricity and Natural Gas System Against Long-Lasting Stressful Weather,&rdquo;
+<i>IEEE Transactions on Smart Grid</i>, submitted, 2024.</p>
+</li>
 <li><p><b>Bo Zhou</b>, Xiaomeng Ai, Jiakun Fang, Kun Li, Wei Yao, Zhe Chen, Jinyu Wen,
 &ldquo;<a href="https://doi.org/10.1016/j.ijepes.2023.109181">Function-space optimization to coordinate multi-energy storage across the integrated electricity and natural gas system</a>,&rdquo;
 <i>International Journal of Electrical Power &amp; Energy System</i>, 2023(151), 109181, 2023.</p>
