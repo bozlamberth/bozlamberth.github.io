@@ -16,25 +16,26 @@
 <div class="menu-item"><a href="project.html" class="current">Research</a></div>
 <div class="menu-item"><a href="paper.html">Publications</a></div>
 <div class="menu-item"><a href="talk.html">Presentations</a></div>
-<div class="menu-item"><a href="service.html">Services/Teaching</a></div>
-<div class="menu-item"><a href="link.html">Links</a></div>
+<div class="menu-item"><a href="link.html">Miscellaneous</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
 <h1>Research</h1>
 </div>
-<p>My research interests focus on the <b>mathematical optimization and learning techniques</b> for <b>flexibility and resilience of power/energy systems under uncertainty</b>, which is critical in promoting the sustainable and low-carbon transition of the energy sector.
-Toward this target, I think theory and applications of <b>energy storage</b> will be the most critical enabling technologies.</p>
+<p>My current research focuses on <b>bilevel and two-stage optimization under uncertainty</b> as well as its <b>applications in power and energy systems</b>.
+Particularly, I think <b>energy storage (grid)</b> will be the critical enabling technology toward the sustainable and low-carbon transition of the energy sector.</p>
+<p><b>Research Interests</b></p>
 <ul>
-<li><p>Methodologies: Continuous-time optimization, robust optimization, bilevel optimization, machine learning</p>
+<li><p>Methodologies: Integer programming, robust optimization, convex/non-convex optimization, machine learning</p>
 </li>
-<li><p>Application: Power/energy system, flexibility &amp; resilience, energy storage, power market, energy bank</p>
+<li><p>Application: Power and energy systems, green energy, energy storage, energy market</p>
 </li>
 </ul>
-<h2>Theories and Computational Algorithms for Optimizing Bilevel Mixed-Integer Nonlinear Programs</h2>
+<h2>Bilevel Mixed-Integer Linear Programs with Binary Tender</h2>
 <table class="imgtable"><tr><td>
 <img src="./images/neuralBilevel.png" alt="profile pic" width="500px" />&nbsp;</td>
-<td align="left"><p>Bilevel programs (BPs) find a wide range of applications in fields such as energy, transportation, and machine learning.
+<td align="left"><p><b>General cases:</b>
+Bilevel programs (BPs) find a wide range of applications in fields such as energy, transportation, and machine learning.
 As compared to BPs with continuous (linear/convex) optimization problems in both levels, the BPs with discrete decision variables have received much less attention,
 largely due to the ensuing computational intractability and the incapability of gradient-based algorithms for handling discrete optimization formulations.
 In this paper, we develop deep learning techniques to address this challenge.
@@ -53,70 +54,11 @@ We demonstrate the performance of these approaches through extensive numerical e
 </li>
 </ul>
 </td></tr></table>
-<h2>Frequency-Secured Unit Commitment</h2>
-<table class="imgtable"><tr><td>
-<img src="./images/Frequency.jpg" alt="profile pic" width="500px" />&nbsp;</td>
-<td align="left"><p>As we replace conventional synchronous generators with renewable energy, the frequency security of power systems is at higher risk.
-This calls for a more careful consideration of unit commitment (UC) and primary frequency response (PFR) reserves.
-This study studies frequency-secured UC under significant wind power uncertainty.
-We coordinate the thermal units and wind farms to provide frequency support, wherein we optimize the variable inverter droop factors of the wind farms for higher economy.
-In addition, we adopt distributionally robust chance constraints (DRCCs) to handle the wind power uncertainty.
-To depict the frequency dynamics, we incorporate a differential-algebraic equation (DAE) with the dead band into the UC model.
-Notably, we apply Bernstein polynomials to derive tight inner approximation of the DAE and obtain mixed-integer linear constraints, which can be computed in off-the-shelf solvers.
-Case studies demonstrate the tightness and effectiveness of the proposed method in guaranteeing frequency security.</p>
-<p>Research outputs:</p>
-<ol>
-<li><p><b>Bo Zhou</b>, Ruiwei Jiang, Siqian Shen,
-&ldquo;<a href="https://doi.org/10.1109/TPWRS.2023.3335348">Frequency Stability-Constrained Unit Commitment: Tight Approximation using Bernstein Polynomials</a>,&rdquo;
-<i>IEEE Transactions on Power Systems</i>, early access.</p>
-</li>
-<li><p><b>Bo Zhou</b>, Ruiwei Jiang, Siqian Shen,
-&ldquo;<a href="https://doi.org/10.1109/PESGM52003.2023.10253174">Differential-Algebraic Equation-Constrained Frequency-Secured Stochastic Unit Commitment</a>,&rdquo;
-in Proceedings of 2023 IEEE Power &amp; Energy Society General Meeting (<i>PESGM 2023</i>), Orlando, United States, July 2023.</p>
-</li>
-</ol>
-</td></tr></table>
-<h2>Configuration Optimization and Operation Strategy of Energy Storage Stations for the Power System</h2>
-<table class="imgtable"><tr><td>
-<img src="./images/trading.png" alt="profile pic" width="500px" />&nbsp;</td>
-<td align="left"><p>Renewables, widely regarded as the predominant energy in the future, have primary responsibility for future power supply adequacy and thus are becoming the main flexibility demander considering their self-induced uncertainties.
-This paper proposes a novel storage right-based hybrid discrete-time and continuous-time (HT) flexibility trading between energy storage station (ESS) and renewable power plants (RPP), where ESS sells flexibility for profits and RPPs buy flexibility to hedge power shortage risks.
-The flexibility package (FP), composed of energy<i>power</i>ramping capacity right and stored energy sell/recycle, is proposed as the trading product to reach the higher profit for ESS and to provide the more customized selection for RPPs.
-The HT bilevel optimization is proposed for the flexibility trading, where the upper-level discrete-time (DT) optimization decides the arbitrage schedule and FP price of ESS and the lower-level continuous-time (CT) optimization decides the bidding strategy and FP order of each RPP.
-The enhanced solution space transformation and the KKT condition method are utilized to reduce the HT bilevel optimization into common DT optimization which is then linearized into mixed-integer linear programming for tractable calculation.
-Case studies validate the higher profits of ESS and the lower power shortage risks of RPPs under the proposed method.</p>
-<p>Research outputs:</p>
-<ol>
-<li><p><b>Bo Zhou</b>, Xiaomeng Ai, Jiakun Fang, Shichang Cui, Wei Yao, Zhe Chen, Jinyu Wen,
-&ldquo;<a href="https://doi.org/10.1109/TSTE.2022.3215839">Storage right-based hybrid discrete-time and continuous-time flexibility trading between energy storage station and renewable power plants</a>,&rdquo;
-<i>IEEE Transactions on Sustainable Energy</i>, 14(01), 465-481, 2023.</p>
-</li>
-</ol>
-</td></tr></table>
-<table class="imgtable"><tr><td>
-<img src="./images/StorageGrid.png" alt="profile pic" width="500px" />&nbsp;</td>
-<td align="left"><p>Driven by the carbon peak and neutrality goals, the rapid development of renewables will significantly change the structure and distribution of energy resources of the power system in China, which also brings great opportunities and challenges for the development of energy storage in the power system.
-First, the locations of the loads center and the changes of the structure and distribution of energy resources are studied, based on which the new pattern of future power system is predicted, i.e., from-around-to-inside power transmission.
-Then, the critical role of energy storage in supporting the secure, efficient, and low-carbon operation of the future power system is analyzed.
-On this basis, the development superiority of pumped hydro storage in the new pattern is highlighted considering the topographical characteristics of China.
-Accordingly, the pumped hydro storage-predominated energy storage grid is proposed, whose necessity is further analyzed from the perspective of system-wide active power balance.
-Finally, key technologies for the energy storage grid are investigated, including planning, operating, and market, and some thoughts on the development of the energy storage grid are further provided.</p>
-<p>Research outputs:</p>
-<ol>
-<li><p>Jinyu Wen, <b>Bo Zhou</b>, Lishen Wei,
-&ldquo;<a href="https://doi.org/10.19783/j.cnki.pspc.220265">Preliminary study on an energy storage grid for future power system in China</a>,&rdquo;
-<i>Power System Protection and Control (in Chinese)</i>, 50(07), 1-10, 2022. (F5000 top article)</p>
-</li>
-<li><p><b>Bo Zhou</b>, Minggang Song, Jiawei Huang, Xiaomeng Ai, Wei Yao, Jinyu Wen,
-&ldquo;<a href="https://doi.org/10.7500/AEPS20180816011">Configuration optimization method of multifunctional hybrid energy storage for regional power line fault</a>,&rdquo;
-<i>Automation of Electric Power System (in Chinese)</i>, 43(08), 25-34, 2019.</p>
-</li>
-</ol>
-</td></tr></table>
-<h2>Data-Adaptive Robust Optimization for Unit Commitment under Wind Uncertainty</h2>
+<h2>Two-Stage Robust Optimization with Complicated Uncertainty</h2>
 <table class="imgtable"><tr><td>
 <img src="./images/cut.png" alt="profile pic" width="500px" />&nbsp;</td>
-<td align="left"><p>Correlations help narrow the uncertainty region in robust unit commitment (RUC) of power systems for economic improvement, yet in high-dimensional cases, state-of-the-art full-dimensional correlation (FDC) based uncertainty set methods suffer from either conservativeness or computational burden.
+<td align="left"><p><b>Correlated uncertainty:</b>
+Correlations help narrow the uncertainty region in robust unit commitment (RUC) of power systems for economic improvement, yet in high-dimensional cases, state-of-the-art full-dimensional correlation (FDC) based uncertainty set methods suffer from either conservativeness or computational burden.
 This paper proposes the novel partial-dimensional correlation (PDC) aided convex-hull uncertainty set (CHUS) for RUC.
 The PDC-aided framework is established for the first time to utilize the accurate and accessible PDC instead of the assumed but inaccessible FDC, which provides a general formula that covers both the traditional correlation-ignored and the emerging FDC-based methods.
 The diamond-cut CHUS of correlation data is developed to approach the compact CHUS to reduce conservativeness under an acceptable complexity.
@@ -136,7 +78,8 @@ Case studies demonstrate the effectiveness of the proposed method in enhancing b
 </td></tr></table>
 <table class="imgtable"><tr><td>
 <img src="./images/BtR.png" alt="profile pic" width="500px" />&nbsp;</td>
-<td align="left"><p>To guarantee the operational security of the renewable power system, the uncertainty of renewable energy generation (REG) should be fully considered.
+<td align="left"><p><b>Continuous-time uncertainty:</b>
+To guarantee the operational security of the renewable power system, the uncertainty of renewable energy generation (REG) should be fully considered.
 However, the traditional robust unit commitment (RUC) cannot access the variation of REG inside the operational period.
 Hence, this paper proposes the continuous-trajectory (CT) RUC considering the beyond-the-resolution (BtR) uncertainty.
 The critical impact factors characterizing the BtR variation are analyzed, and then the BtR uncertainty is modeled.
@@ -158,39 +101,73 @@ in Proceedings of 2020 IEEE Power &amp; Energy Society General Meeting (<i>PESGM
 </li>
 </ol>
 </td></tr></table>
-<h2>Coordination of Integrated Electricity and Natural Gas System</h2>
+<h2>Energy Storage Grid and Trading</h2>
 <table class="imgtable"><tr><td>
-<img src="./images/IEGS.png" alt="profile pic" width="500px" />&nbsp;</td>
-<td align="left"><p>The synergy between electric power systems and natural gas systems brings significant energy storage potentials yet challenges the modeling and solution techniques of partial-differential-equation (PDE) constrained optimization.
-This paper proposes a function-space optimization to coordinate multi-energy storage across the integrated electricity and natural gas system.
-Compared to general algebraic-space optimization, the proposed function-space optimization (FSO) uses continuous spatial-temporal functions as variables, for which time and space can be explicitly expressed and the PDE constraints of gas dynamics can be directly embedded into optimization.
-Considering the bidirectional energy conversion enabled by gas-fired units and power-to-gas, linepack gas storage and battery energy storage are coordinated through FSO to improve the operational economy.
-For tractable calculation, the Bernstein polynomial spline-based solution space transformation is adopted to transform FSO into mixed-integer linear programming.
-Case studies on a single-pipe example and two practical test systems are conducted and the simulation results validate the effectiveness of the proposed FSO method.</p>
+<img src="./images/StorageGrid.png" alt="profile pic" width="500px" />&nbsp;</td>
+<td align="left"><p><b>Energy storage grid:</b>
+Driven by the carbon peak and neutrality goals, the rapid development of renewables will significantly change the structure and distribution of energy resources of the power system in China, which also brings great opportunities and challenges for the development of energy storage in the power system.
+First, the locations of the loads center and the changes of the structure and distribution of energy resources are studied, based on which the new pattern of future power system is predicted, i.e., from-around-to-inside power transmission.
+Then, the critical role of energy storage in supporting the secure, efficient, and low-carbon operation of the future power system is analyzed.
+On this basis, the development superiority of pumped hydro storage in the new pattern is highlighted considering the topographical characteristics of China.
+Accordingly, the pumped hydro storage-predominated energy storage grid is proposed, whose necessity is further analyzed from the perspective of system-wide active power balance.
+Finally, key technologies for the energy storage grid are investigated, including planning, operating, and market, and some thoughts on the development of the energy storage grid are further provided.</p>
 <p>Research outputs:</p>
 <ol>
-<li><p>Xiaomeng Ai, Huang Zhou, Jun Zhou, <b>Bo Zhou</b>, Shichang Cui, Jiakun Fang, Jinyu Wen,
-&ldquo;Multi-Week Continuous-Time Scheduling of Integrated Electricity and Natural Gas System Against Long-Lasting Stressful Weather,&rdquo;
-<i>IEEE Transactions on Smart Grid</i>, submitted, 2024.</p>
+<li><p>Jinyu Wen, <b>Bo Zhou</b>, Lishen Wei,
+&ldquo;<a href="https://doi.org/10.19783/j.cnki.pspc.220265">Preliminary study on an energy storage grid for future power system in China</a>,&rdquo;
+<i>Power System Protection and Control (in Chinese)</i>, 50(07), 1-10, 2022. (F5000 top article)</p>
 </li>
-<li><p><b>Bo Zhou</b>, Xiaomeng Ai, Jiakun Fang, Kun Li, Wei Yao, Zhe Chen, Jinyu Wen,
-&ldquo;<a href="https://doi.org/10.1016/j.ijepes.2023.109181">Function-space optimization to coordinate multi-energy storage across the integrated electricity and natural gas system</a>,&rdquo;
-<i>International Journal of Electrical Power &amp; Energy System</i>, 2023(151), 109181, 2023.</p>
-</li>
-<li><p><b>Bo Zhou</b>, Jiakun Fang, Xiaomeng Ai, Menglin Zhang, Wei Yao, Zhe Chen, Jinyu Wen,
-&ldquo;<a href="https://doi.org/10.1049/iet-rpg.2020.0215">Linear network model for integrated power and gas distribution systems with bidirectional energy conversion</a>,&rdquo;
-<i>IET Renewable Power Generation</i>, 14(17), 3284-3291, 2020.</p>
-</li>
-<li><p><b>Bo Zhou</b>, Jiakun Fang, Xiaomeng Ai, Wei Yao, Zhe Chen, Jinyu Wen,
-&ldquo;<a href="https://doi.org/10.1049/iet-gtd.2019.1956">Pyramidal approximation for power flow and optimal power flow</a>,&rdquo;
-<i>IET Generation, Transmission &amp; Distribution</i>, 14(18), 3774-3782, 2020.</p>
+<li><p><b>Bo Zhou</b>, Minggang Song, Jiawei Huang, Xiaomeng Ai, Wei Yao, Jinyu Wen,
+&ldquo;<a href="https://doi.org/10.7500/AEPS20180816011">Configuration optimization method of multifunctional hybrid energy storage for regional power line fault</a>,&rdquo;
+<i>Automation of Electric Power System (in Chinese)</i>, 43(08), 25-34, 2019.</p>
 </li>
 </ol>
 </td></tr></table>
-<h2>Security Defense for HVDC Receiving-End Power Grid</h2>
+<table class="imgtable"><tr><td>
+<img src="./images/trading.png" alt="profile pic" width="500px" />&nbsp;</td>
+<td align="left"><p><b>Energy storage trading:</b>
+Renewables, widely regarded as the predominant energy in the future, have primary responsibility for future power supply adequacy and thus are becoming the main flexibility demander considering their self-induced uncertainties.
+This paper proposes a novel storage right-based hybrid discrete-time and continuous-time (HT) flexibility trading between energy storage station (ESS) and renewable power plants (RPP), where ESS sells flexibility for profits and RPPs buy flexibility to hedge power shortage risks.
+The flexibility package (FP), composed of energy<i>power</i>ramping capacity right and stored energy sell/recycle, is proposed as the trading product to reach the higher profit for ESS and to provide the more customized selection for RPPs.
+The HT bilevel optimization is proposed for the flexibility trading, where the upper-level discrete-time (DT) optimization decides the arbitrage schedule and FP price of ESS and the lower-level continuous-time (CT) optimization decides the bidding strategy and FP order of each RPP.
+The enhanced solution space transformation and the KKT condition method are utilized to reduce the HT bilevel optimization into common DT optimization which is then linearized into mixed-integer linear programming for tractable calculation.
+Case studies validate the higher profits of ESS and the lower power shortage risks of RPPs under the proposed method.</p>
+<p>Research outputs:</p>
+<ol>
+<li><p><b>Bo Zhou</b>, Xiaomeng Ai, Jiakun Fang, Shichang Cui, Wei Yao, Zhe Chen, Jinyu Wen,
+&ldquo;<a href="https://doi.org/10.1109/TSTE.2022.3215839">Storage right-based hybrid discrete-time and continuous-time flexibility trading between energy storage station and renewable power plants</a>,&rdquo;
+<i>IEEE Transactions on Sustainable Energy</i>, 14(01), 465-481, 2023.</p>
+</li>
+</ol>
+</td></tr></table>
+<h2>Power/Energy System Scheduling with Dynamics</h2>
+<table class="imgtable"><tr><td>
+<img src="./images/Frequency.jpg" alt="profile pic" width="500px" />&nbsp;</td>
+<td align="left"><p><b>Frequency dynamics:</b>
+As we replace conventional synchronous generators with renewable energy, the frequency security of power systems is at higher risk.
+This calls for a more careful consideration of unit commitment (UC) and primary frequency response (PFR) reserves.
+This study studies frequency-secured UC under significant wind power uncertainty.
+We coordinate the thermal units and wind farms to provide frequency support, wherein we optimize the variable inverter droop factors of the wind farms for higher economy.
+In addition, we adopt distributionally robust chance constraints (DRCCs) to handle the wind power uncertainty.
+To depict the frequency dynamics, we incorporate a differential-algebraic equation (DAE) with the dead band into the UC model.
+Notably, we apply Bernstein polynomials to derive tight inner approximation of the DAE and obtain mixed-integer linear constraints, which can be computed in off-the-shelf solvers.
+Case studies demonstrate the tightness and effectiveness of the proposed method in guaranteeing frequency security.</p>
+<p>Research outputs:</p>
+<ol>
+<li><p><b>Bo Zhou</b>, Ruiwei Jiang, Siqian Shen,
+&ldquo;<a href="https://doi.org/10.1109/TPWRS.2023.3335348">Frequency Stability-Constrained Unit Commitment: Tight Approximation using Bernstein Polynomials</a>,&rdquo;
+<i>IEEE Transactions on Power Systems</i>, 39(04), 5907-5919, 2024.</p>
+</li>
+<li><p><b>Bo Zhou</b>, Ruiwei Jiang, Siqian Shen,
+&ldquo;<a href="https://doi.org/10.1109/PESGM52003.2023.10253174">Differential-Algebraic Equation-Constrained Frequency-Secured Stochastic Unit Commitment</a>,&rdquo;
+in Proceedings of 2023 IEEE Power &amp; Energy Society General Meeting (<i>PESGM 2023</i>), Orlando, United States, July 2023.</p>
+</li>
+</ol>
+</td></tr></table>
 <table class="imgtable"><tr><td>
 <img src="./images/isogram.jpg" alt="profile pic" width="500px" />&nbsp;</td>
-<td align="left"><p>Sufficient dynamic Var reserve (DVR) can efficiently enhance the immunity against continuous commutation failures (CCF) to avoid DC blocking and further security accidents in the line-commutated converter (LCC) based HVDC receiving-end power system.
+<td align="left"><p><b>Voltage dynamics:</b>
+Sufficient dynamic Var reserve (DVR) can efficiently enhance the immunity against continuous commutation failures (CCF) to avoid DC blocking and further security accidents in the line-commutated converter (LCC) based HVDC receiving-end power system.
 This article proposes the problem formulation and efficient solution algorithm for the DVR-constrained coordinated scheduling considering contingencies and wind uncertainties.
 The DVR sufficiency is proposed for the post-contingency CCF immunity in scheduling problems, which combines the voltage sensitivitybased DVR capacity calculation and the offline DVR requirement tests.
 HVDC transmission and W/Var sources are coordinately scheduled to accommodate contingencies and wind uncertainties and to improve the operational economy.
@@ -209,6 +186,35 @@ in Proceedings of 2019 IEEE Sustainable Power and Energy Conference (<i>iSPEC 20
 <li><p><b>Bo Zhou</b>, Xiaomeng Ai, Jiakun Fang, Jinyu Wen, Jianhua Yang,
 &ldquo;<a href="https://doi.org/10.1049/joe.2017.0574">Mixed-integer second-order cone programming taking appropriate approximation for the unit commitment in hybrid AC–DC grid</a>,&rdquo;
 in Proceedings of the 6th International Conference on Renewable Power Generation (<i>IET RPG 2017</i>), Wuhan, China, October 2017.</p>
+</li>
+</ol>
+</td></tr></table>
+<table class="imgtable"><tr><td>
+<img src="./images/IEGS.png" alt="profile pic" width="500px" />&nbsp;</td>
+<td align="left"><p><b>Natural gas dynamics:</b>
+The synergy between electric power systems and natural gas systems brings significant energy storage potentials yet challenges the modeling and solution techniques of partial-differential-equation (PDE) constrained optimization.
+This paper proposes a function-space optimization to coordinate multi-energy storage across the integrated electricity and natural gas system.
+Compared to general algebraic-space optimization, the proposed function-space optimization (FSO) uses continuous spatial-temporal functions as variables, for which time and space can be explicitly expressed and the PDE constraints of gas dynamics can be directly embedded into optimization.
+Considering the bidirectional energy conversion enabled by gas-fired units and power-to-gas, linepack gas storage and battery energy storage are coordinated through FSO to improve the operational economy.
+For tractable calculation, the Bernstein polynomial spline-based solution space transformation is adopted to transform FSO into mixed-integer linear programming.
+Case studies on a single-pipe example and two practical test systems are conducted and the simulation results validate the effectiveness of the proposed FSO method.</p>
+<p>Research outputs:</p>
+<ol>
+<li><p>Xiaomeng Ai, Huang Zhou, Jun Zhou, <b>Bo Zhou</b>, Shichang Cui, Jiakun Fang, Jinyu Wen,
+&ldquo;Multi-Week Continuous-Time Scheduling of Integrated Electricity and Natural Gas System Against Long-Lasting Stressful Weather,&rdquo;
+submitted, 2024.</p>
+</li>
+<li><p><b>Bo Zhou</b>, Xiaomeng Ai, Jiakun Fang, Kun Li, Wei Yao, Zhe Chen, Jinyu Wen,
+&ldquo;<a href="https://doi.org/10.1016/j.ijepes.2023.109181">Function-space optimization to coordinate multi-energy storage across the integrated electricity and natural gas system</a>,&rdquo;
+<i>International Journal of Electrical Power &amp; Energy System</i>, 2023(151), 109181, 2023.</p>
+</li>
+<li><p><b>Bo Zhou</b>, Jiakun Fang, Xiaomeng Ai, Menglin Zhang, Wei Yao, Zhe Chen, Jinyu Wen,
+&ldquo;<a href="https://doi.org/10.1049/iet-rpg.2020.0215">Linear network model for integrated power and gas distribution systems with bidirectional energy conversion</a>,&rdquo;
+<i>IET Renewable Power Generation</i>, 14(17), 3284-3291, 2020.</p>
+</li>
+<li><p><b>Bo Zhou</b>, Jiakun Fang, Xiaomeng Ai, Wei Yao, Zhe Chen, Jinyu Wen,
+&ldquo;<a href="https://doi.org/10.1049/iet-gtd.2019.1956">Pyramidal approximation for power flow and optimal power flow</a>,&rdquo;
+<i>IET Generation, Transmission &amp; Distribution</i>, 14(18), 3774-3782, 2020.</p>
 </li>
 </ol>
 </td></tr></table>
